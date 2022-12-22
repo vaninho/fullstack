@@ -1,16 +1,1 @@
-Browser->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
-Server->>Browser: Response, redirect /notes
-Browser->>Server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
-Server->>Browser: HTML code
-Browser->>Server: HTTP GET main.css
-Server->>Browser: main.css
-Browser->>Server: HTTP GET installHooks.js
-Server->>Browser: installHooks.js
-Browser->>Server: HTTP GET main.js
-Server->>Browser: main.js
-Note right of Browser: Browser execute javascript and requests the data.
-Browser->>Server: HTTP GET data.json
-Server->>Browser: Data in json format
-Browser->>Server: HTTP GET favicon.ico
-Server->>Browser: favicon.ico
-Note right of Browser: Browser shows the /notes page with new entry.
+[![](https://mermaid.ink/img/pako:eNqVk0tvgzAQhP_KyucU7hxyqFI1hz6ihiNStYIlmIBNvUseivLfuyRpqyppol7A0gzfzthmZ3JfkEkM00dPLqeJxUXANnP3wa-Zwt14PKewopDANE1nMHudp1CJdJzEMUtfWOIo56iihq1b2qi0MW2w7RrCrosdrd-dF8rckaK4EziBN-LOO6YRBCpsoFwgHrz85_DHh3_NPrLOB0_T5ycYel8d1KJ1Sr9I-NGuAKxjwaaZer_kqL7IObPcylP_HWeQXrQyBLuoBHwJ3_ppAbShvFdHjSvkPNhOAF2h269nz8IgFUGBgtHVIAdHzd5dijJRUWvBoEPpQ4tyFVbiyubeRfq4hPsl32jHlb4PHY5HDx0uCNZWKtBrCOQkbCMzMi1pKlvopd9lDiAz-klLmUl0WVCJfSOZydxerdiLn29dbhIJPY1M32n5r3_EJCU2TPtPRowrhA?type=png)](https://mermaid.live/edit#pako:eNqVk0tvgzAQhP_KyucU7hxyqFI1hz6ihiNStYIlmIBNvUseivLfuyRpqyppol7A0gzfzthmZ3JfkEkM00dPLqeJxUXANnP3wa-Zwt14PKewopDANE1nMHudp1CJdJzEMUtfWOIo56iihq1b2qi0MW2w7RrCrosdrd-dF8rckaK4EziBN-LOO6YRBCpsoFwgHrz85_DHh3_NPrLOB0_T5ycYel8d1KJ1Sr9I-NGuAKxjwaaZer_kqL7IObPcylP_HWeQXrQyBLuoBHwJ3_ppAbShvFdHjSvkPNhOAF2h269nz8IgFUGBgtHVIAdHzd5dijJRUWvBoEPpQ4tyFVbiyubeRfq4hPsl32jHlb4PHY5HDx0uCNZWKtBrCOQkbCMzMi1pKlvopd9lDiAz-klLmUl0WVCJfSOZydxerdiLn29dbhIJPY1M32n5r3_EJCU2TPtPRowrhA)
